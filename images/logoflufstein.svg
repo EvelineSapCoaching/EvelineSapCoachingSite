@@ -1,0 +1,23 @@
+<svg width="190" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define the gradient -->
+    <linearGradient id="pathGradient" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="-200%" style="stop-color:#8ADA39;stop-opacity:1">
+        <animate attributeName="offset" values="-2;-1;0" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="-100%" style="stop-color:#40ABFD;stop-opacity:1">
+        <animate attributeName="offset" values="-1;0;1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="0%" style="stop-color:#8ADA39;stop-opacity:1">
+        <animate attributeName="offset" values="0;1;2" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" style="stop-color:#40ABFD;stop-opacity:1">
+        <animate attributeName="offset" values="1;2;3" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <!-- Draw the custom shape and apply the gradient -->
+  <path d="M 5 0 h 110 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 1 -5 5 h -35 a 5 5 0 0 0 -5 5 v 80 a 5 5 0 0 1 -5 5 h -20 a 5 5 0 0 1 -5 -5 v -80 a 5 5 0 0 0 -5 -5 h -35 a 5 5 0 0 1 -5 -5 v -20 a 5 5 0 0 1 5 -5 Z 
+    M 85 50 h 15 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 1 -5 5 h -15 Z 
+    M 130 0 h 30 a 30 30 0 0 1 30 30 v 120 a 30 30 0 0 1 -30 30 h -85 a 30 30 0 0 1 -30 -30 v -20 h 30 v 20 a 5 5 0 0 0 5 5 h 75 a 5 5 0 0 0 5 -5 v -115 a 5 5 0 0 0 -5 -5 h -25 Z" fill="url(#pathGradient)"/>
+</svg>
